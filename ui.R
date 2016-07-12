@@ -120,7 +120,7 @@ navbarPage(img(src="upm.jpeg",height = 20, width = 20),
            )
            ), # end tab 2        
                         
-        tabPanel(p("About Us"),
+        tabPanel(p("About Me"),
                  mainPanel(
                    h4('This is an App developed as a project for Data Science MOOC. This simple Shiny App is for calculating the Zakat Pendapatan.  
                       The outputs are amount that you need to pay. Simply enter the information required to get your zakat.'),
