@@ -122,7 +122,7 @@ navbarPage(img(src="upm.jpeg",height = 20, width = 20),
                         
         tabPanel(p("About Me"),
                  mainPanel(
-                   h4('This is an App developed as a project for Data Science MOOC. This simple Shiny App is for calculating the Zakat Pendapatan.  
+                   h4('This is an App developed as a project for Data Science MOOC. This simple Shiny App is for calculating the Zakat.  
                       The outputs are amount that you need to pay. Simply enter the information required to get your zakat.'),
                    helpText("This Zakat Calculator make it quick and simple for you to work out, and pay, your Zakat.")
                    
