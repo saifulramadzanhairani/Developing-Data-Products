@@ -2,8 +2,8 @@ name: zakat_calculator
 account: saifulramadzanhairani
 server: shinyapps.io
 appId: 113810
-bundleId: 502363
+bundleId: 503449
 url: https://saifulramadzanhairani.shinyapps.io/zakat_calculator/
-when: 1468296519.64987
+when: 1468389854.24189
 asMultiple: FALSE
 asStatic: FALSE

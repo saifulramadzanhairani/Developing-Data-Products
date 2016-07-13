@@ -1,38 +1,28 @@
----
-title       : Coursera Shiny Project
-subtitle    : Zakat Calculator
-author      : Saiful Ramadzan Hairani
-job         : July,12,2016
-framework   : io2012     # {io2012, html5slides, shower, dzslides, ...}
-highlighter : highlight.js  # {highlight.js, prettify, highlight}
-hitheme     : tomorrow      # 
-widgets     : []            # {mathjax, quiz, bootstrap}
-mode        : selfcontained # {standalone, draft}
-knit        : slidify::knit2slides
----
+index
+========================================================
+author: 
+date: 
+autosize: true
 
-## Introduction
+First Slide
+========================================================
 
-This is an App developed as a project for Data Science MOOC. This simple Shiny App is for calculating the Zakat. The outputs are amount that you need to pay. Simply enter the information required to get your zakat.
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
 
---- 
-## App Features
+- Bullet 1
+- Bullet 2
+- Bullet 3
 
-The ShinyApp makes use of the navbarPage functionality
-  - A tab for Zakat Calculator
-  - A tab for description of income
-  - A tab About Zakat itself
-  - A tab About me
+Slide With Code
+========================================================
 
-ui.R
-  - Input Values (income, basic expenses, other deduction, tabung haji) 
-  - Default values given
-  
-server.R
-  - Generation of zakat. (The outputs are amount that you need to pay.) 
----
-## Slide 3
+```{r}
+summary(cars)
+```
 
+Slide With Plot
+========================================================
 
-
-
+```{r, echo=FALSE}
+plot(cars)
+```
